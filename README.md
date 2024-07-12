@@ -1,4 +1,15 @@
 # Bixi Live GBFS Feed Data Analytics
+This project involves the end-to-end development of a data engineering pipeline using the Bixi Live GBFS feed. The objective was to ingest, process, and transform real-time data about bike-sharing stations in Montreal to facilitate dynamic data analysis and visualization. Using Azure Data Factory and Azure Databricks, the project successfully ingested JSON formatted data about station information and status, transformed and cleaned this data, and stored the refined datasets in Azure Data Lake. The processed data was then used to create an interactive dashboard in Power BI, providing insights into station operations and usage patterns.
+
+### Objectives
+- **Data Ingestion**: Automate the extraction of real-time data from the Bixi Live GBFS feed using Azure Data Factory.
+- **Data Processing and Transformation**: Utilize Azure Databricks to cleanse and merge datasets for accurate analysis.
+- **Data Visualization**: Develop a Power BI dashboard to visualize key metrics and provide actionable insights into bike station statuses and usage.
+- **Automation and Monitoring**: Implement automated data updates and monitoring to ensure the continuous availability of updated and accurate data.
+- **Strategic Decision Making**: Enable stakeholders to make informed decisions based on real-time data analytics.
+
+This project aims to enhance operational efficiencies and user experiences by leveraging advanced cloud technologies and business intelligence tools.
+
 ![Architecture Diagram Design](images/architecture_diag.png)
 ## 1. Data Ingestion Process
 
