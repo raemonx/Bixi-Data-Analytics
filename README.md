@@ -1,6 +1,6 @@
-# End-to-End Data Engineering Project Using Bixi Live GBFS Feed
+# Bixi Live GBFS Feed Data Analytics
 ![Architecture Diagram Design](images/architecture_diag.png)
-## Data Ingestion Process
+## 1. Data Ingestion Process
 
 ### Creating Linked Services in Azure Data Factory
 - Configured HTTP linked services to connect to the Bixi Live GBFS Feed URLs.
@@ -26,7 +26,7 @@
 - Monitored the pipeline for successful execution and handled any errors or issues during the data ingestion process.
 
 
-## Data Cleaning and Transformation Process
+## 2. Data Cleaning and Transformation Process
 
 ### Mounting Azure Storage in Databricks
 - Mounted the Azure Blob Storage in Databricks using the `wasbs` scheme.
