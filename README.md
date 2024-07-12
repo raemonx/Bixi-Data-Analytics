@@ -1,4 +1,5 @@
 # End-to-End Data Engineering Project Using Bixi Live GBFS Feed
+![Architecture Diagram Design](images/architecture_diag.png)
 ## Data Ingestion Process
 
 ### Creating Linked Services in Azure Data Factory
