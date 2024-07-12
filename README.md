@@ -49,3 +49,25 @@
 - Ensured that existing data was appended with new data correctly and duplicates were removed before saving.
 
 ![Transformed CSV](images/transformed_data_csv.png)
+
+## 3. Data Analysis in Azure Synapse Analytics
+
+### Exploratory Data Analysis (EDA)
+- Conducted Exploratory Data Analysis (EDA) using Azure Synapse Analytics to understand the distribution and characteristics of the data.
+- Utilized SQL queries to derive meaningful insights from the cleaned and transformed data stored in Azure Data Lake.
+
+### Summary Statistics for Numerical Columns
+- Calculated summary statistics for the latest snapshot of the data from the `bixi_station_data` table. 
+- This included determining the minimum, maximum, and average values for key numerical columns such as the number of bikes available, e-bikes available, and docks available.
+- These statistics provided a comprehensive overview of the bike and dock availability across different stations.
+
+### Analyzing the Distribution of Available Bikes and Docks
+- Analyzed the distribution of available bikes and docks to identify patterns and trends.
+- Grouped the data by the number of bikes available and the number of docks available to see how they were distributed across different stations.
+- This analysis helped in understanding the frequency and spread of bike and dock availability, which is crucial for operational and logistical planning.
+
+### Key Findings
+- The summary statistics revealed the range and average availability of bikes and docks at various stations.
+- The distribution analysis highlighted stations with the highest and lowest availability, indicating potential areas for improvement in bike distribution and dock management.
+
+![SQL EDA](images/EDA.png)
