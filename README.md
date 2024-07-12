@@ -47,3 +47,5 @@
 ### Storing Transformed Data
 - Converted the cleaned data to a CSV format and stored it back in Azure Data Lake.
 - Ensured that existing data was appended with new data correctly and duplicates were removed before saving.
+
+![Transformed CSV](images/transformed_data_csv.png)
