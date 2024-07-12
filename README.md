@@ -13,7 +13,7 @@
 - **HTTP Connector Activity**: Set up to fetch data from the station information URL and the station status URL.
 - **Copy Activity**: Configured to copy the fetched data into JSON datasets.
 
-![Pipeline Design](path_to_pipeline_design_image)
+![Pipeline Design](images/data_pipeline.png)
 
 ### Data Storage in Azure Data Lake
 - Defined datasets in Azure Data Lake to store the JSON data.
