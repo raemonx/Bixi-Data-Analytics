@@ -26,3 +26,24 @@
 - Monitored the pipeline for successful execution and handled any errors or issues during the data ingestion process.
 
 
+## Data Cleaning and Transformation Process
+
+### Mounting Azure Storage in Databricks
+- Mounted the Azure Blob Storage in Databricks using the `wasbs` scheme.
+- Configured Spark to access the storage account using the account key.
+
+### Loading Data
+- Loaded the JSON data from Azure Data Lake into Databricks for processing.
+- Data sources included paths to station information and station status JSON files in Azure Data Lake.
+
+### Data Parsing and Transformation
+- Parsed JSON data to extract relevant fields and transformed it to a structured format.
+- Merged station information and station status datasets based on station ID to create a comprehensive view.
+
+### Data Cleaning
+- Converted Spark DataFrames to Pandas DataFrames for easier manipulation.
+- Removed duplicates and cleaned the data to ensure consistency.
+
+### Storing Transformed Data
+- Converted the cleaned data to a CSV format and stored it back in Azure Data Lake.
+- Ensured that existing data was appended with new data correctly and duplicates were removed before saving.
