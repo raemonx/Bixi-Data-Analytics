@@ -1,5 +1,5 @@
 # Bixi Live GBFS Feed Data Analytics
-This project involves the end-to-end development of a data engineering pipeline using the Bixi Live GBFS feed. The objective was to ingest, process, and transform real-time data about bike-sharing stations in Montreal to facilitate dynamic data analysis and visualization. Using Azure Data Factory and Azure Databricks, the project successfully ingested JSON formatted data about station information and status, transformed and cleaned this data, and stored the refined datasets in Azure Data Lake. The processed data was then used to create an interactive dashboard in Power BI, providing insights into station operations and usage patterns.
+This project involves the end-to-end development of a data engineering pipeline using the Bixi Live GBFS feed. The objective was to ingest, process, and transform real-time data about bike-sharing stations in Montreal to facilitate dynamic data analysis and visualization. Using Azure Data Factory and Azure Databricks, the project successfully ingested JSON formatted data about station information and status, transformed and cleaned this data, and stored the refined datasets in Azure Data Lake. The processed data was then used to create an interactive dashboard in Power BI, providing insights into station operations and mappped data.
 
 ### Objectives
 - **Data Ingestion**: Automate the extraction of real-time data from the Bixi Live GBFS feed using Azure Data Factory.
@@ -82,3 +82,17 @@ This project aims to enhance operational efficiencies and user experiences by le
 - The distribution analysis highlighted stations with the highest and lowest availability, indicating potential areas for improvement in bike distribution and dock management.
 
 ![SQL EDA](images/EDA.png)
+
+## 4. Power BI Dashboard
+
+### Dashboard Overview
+The Power BI dashboard provides a dynamic and interactive visualization of the Bixi bike station data. It includes key metrics and detailed insights into the current status of bike-sharing stations in Montreal. The dashboard facilitates real-time monitoring and helps stakeholders make informed decisions based on up-to-date data with an option to select the view based on the update time.
+
+### Key Features
+- **Total Available Bikes**: Displays the total number of bikes available across all stations.
+- **Total Docks Available**: Shows the total number of docks available for bike returns.
+- **Total Available E-Bikes**: Indicates the total number of electric bikes available.
+- **Count of Stations**: The total number of active bike stations.
+- **Map Data**: An interactive map showing the geographical distribution of bike stations, color-coded by the availability of bikes and docks.
+- **Station-Level Table**: A detailed table listing each station’s ID, name, number of available bikes, and number of available docks.
+![dashboard](images/summary_dashboard.png)
